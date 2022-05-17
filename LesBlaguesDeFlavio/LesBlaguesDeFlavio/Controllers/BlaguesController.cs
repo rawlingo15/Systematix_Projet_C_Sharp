@@ -36,7 +36,8 @@ namespace LesBlaguesDeFlavio.Controllers
         // POST: Blagues/SearchResults
         public async Task<IActionResult> SearchResults(string MotsCles)
         {
-            return View("Index", await _context.Blague.Where(b => b.Question.Contains(MotsCles)).ToListAsync());
+            var results = await _context.Blague.Where(b => b.Question.Contains(MotsCles)).ToListAsync();
+            return View("Index", results);
         }
 
         // GET: Blagues/Details/5

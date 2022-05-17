@@ -12,9 +12,8 @@
 <table class="table">
     <thead>
         <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.Question)
-            </th>
+            <th>Blague</th>
+            <th>Usager</th>
             <th></th>
         </tr>
     </thead>
@@ -23,6 +22,9 @@
         <tr>
             <td>
                 @Html.DisplayFor(modelItem => item.Question)
+            </td>
+            <td>
+                @User.Identity?.Name
             </td>
             <td>
                 <a asp-action="Details" asp-route-id="@item.Id">Voir la réponse</a> |

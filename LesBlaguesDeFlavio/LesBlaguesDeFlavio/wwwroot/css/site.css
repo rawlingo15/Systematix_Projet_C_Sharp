@@ -15,5 +15,10 @@ html {
 
 body {
     margin-bottom: 60px;
-    background-image: url("./Media/Images/background.jpg");
+    background-image: url(/media/images/background.jpg);
+}
+
+input {
+    margin: 10px;
+    padding: 5px;
 }

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "RyYUUHQRWhUhfV3CXWX8dARF9B6X5cwi3A2anpmWl3s=",
+  "Hash": "CslVjkh3bsiZPRS4KCbQCF7E4urxP3bmytVUkJDH6L4=",
   "Source": "LesBlaguesDeFlavio",
   "BasePath": "_content/LesBlaguesDeFlavio",
   "Mode": "Default",
@@ -2089,6 +2089,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Identity": "C:\\Users\\Master\\Documents\\GitHub\\Systematix_Projet_C_Sharp\\LesBlaguesDeFlavio\\LesBlaguesDeFlavio\\wwwroot\\media\\images\\background.jpg",
+      "SourceId": "LesBlaguesDeFlavio",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Master\\Documents\\GitHub\\Systematix_Projet_C_Sharp\\LesBlaguesDeFlavio\\LesBlaguesDeFlavio\\wwwroot\\",
+      "BasePath": "_content/LesBlaguesDeFlavio",
+      "RelativePath": "media/images/background.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\media\\images\\background.jpg"
     }
   ]
 }
